@@ -1,2 +1,2 @@
-# CR-Reconhecimento_de_digitos_e_simbolos_matematicos
+# CR - Reconhecimento de dígitos e símbolos matemáticos
  ISEC - Trabalho de CR [22/23]
