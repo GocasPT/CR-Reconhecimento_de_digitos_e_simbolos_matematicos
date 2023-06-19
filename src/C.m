@@ -8,9 +8,9 @@ folderOp = "../data/draw/op/*/*.png";
 [input, tamanho] = preprocess(folder, 28);
 [inputNum, tamanhoNum] = preprocess(folderNum, 28);
 [inputOp, tamanhoOp] = preprocess(folderOp, 28);
-target = getTarget(tamanho);
-targetNum = getTarget(tamanhoNum);
-targetOp = getTarget(tamanhoOp);
+target = getTarget(tamanho, 14);
+targetNum = getTarget(tamanhoNum, 10);
+targetOp = getTarget(tamanhoOp, 4);
 
 accuracyFinal = 0;
 accuracyNumFinal = 0;

@@ -4,7 +4,7 @@ clc
 
 folder = "../data/start/*/*/*.png";
 [input, tamanho] = preprocess(folder, 28);
-target = getTarget(tamanho);
+target = getTarget(tamanho, 14);
 
 epochs = 10;
 

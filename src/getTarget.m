@@ -1,6 +1,6 @@
-function target = getTarget(tamanho)
-    target = zeros(14, tamanho);
-    n = floor(tamanho / 14);
+function target = getTarget(tamanho, size)
+    target = zeros(size, tamanho);
+    n = floor(tamanho / size);
 
     linha = 1;
     for i = 1 : tamanho
