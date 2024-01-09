@@ -8,5 +8,5 @@ Feito por:
 Nota: 55%
 
 Funções em falta:
- → Mais testes de configuração de redes
- → Interface gráfica
+- Mais testes de configuração de redes
+- Interface gráfica
